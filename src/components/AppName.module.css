@@ -1,0 +1,23 @@
+.todoHeading {
+  font-weight: 700;
+  font-size: 45px;
+  margin: 50px;
+  margin-bottom: 50px;
+  color: beige;
+}
+
+@media screen and (max-width: 768px) {
+  .todoHeading {
+    font-size: 35px;
+    margin: 50px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .todoHeading {
+    font-size: 25px;
+    margin: 20px;
+    margin-bottom: 10px;
+  }
+}

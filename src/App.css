@@ -1,0 +1,53 @@
+
+input {
+  width: 100%;
+}
+
+.kg-button {
+  min-width: 80px;
+}
+
+.kg-row {
+  margin: 20px 5px;
+}
+.todo-container {
+  background-color: rgb(26, 7, 72);
+  border: 2px solid #333; /* Add border */
+  border-radius: 10px; /* Add border radius */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Add shadow */
+  width: 70%; /* Set width */
+  margin: 50px auto; /* Center the container */
+  padding: 20px; /* Add padding */
+}
+/* .a {
+  background-color: rgb(125, 125, 130);
+} */
+.a {
+  background-color: rgb(75, 75, 116);
+  margin-top: 20px; /* Add margin between the divs */
+  padding: 10px; /* Add padding */
+  color: aliceblue;
+}
+
+@media screen and (max-width: 768px) {
+  .todo-container {
+    width: 90%;
+  }
+
+  .kg-button {
+    min-width: unset;
+    width: 100%; /* Adjust button width to fill its container */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .todo-container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .todo-container {
+    padding: 10px;
+  }
+}
